@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vehicle Details | EcoRmacE Car Dealers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">E</span>
+          <span>
+            <strong>EcoRmacE</strong>
+            <small>Car Dealers</small>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="inventory.html">Inventory</a>
+          <a href="details.html" class="active">Details</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="detail-hero reveal">
+          <div class="detail-main">
+            <img id="vehicleImage" src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Luxury SUV exterior" />
+          </div>
+          <div class="detail-side card">
+            <p class="eyebrow">Featured model</p>
+            <h1 id="vehicleName">Aero X SUV</h1>
+            <p class="price" id="vehiclePrice">$78,900</p>
+            <p id="vehicleDescription">Precision-crafted all-electric SUV with sculpted lines, intelligent cabin tech, and effortless range.</p>
+            <ul class="detail-list" id="vehicleStats">
+              <li><strong>Range:</strong> 420 miles</li>
+              <li><strong>0-60:</strong> 4.3 seconds</li>
+              <li><strong>Drive:</strong> AWD</li>
+              <li><strong>Interior:</strong> Panoramic roof</li>
+            </ul>
+            <a class="btn btn-primary" href="contact.html">Book a Test Drive</a>
+          </div>
+        </section>
+
+        <section class="section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Performance details</p>
+            <h2>Built to feel extraordinary from every angle.</h2>
+          </div>
+          <div class="spec-grid">
+            <article class="card spec-card">
+              <h3>Powertrain</h3>
+              <p>High-output electric motor with instant torque and whisper-quiet operation.</p>
+            </article>
+            <article class="card spec-card">
+              <h3>Comfort</h3>
+              <p>Adaptive air suspension and ambient lighting create a serene cabin experience.</p>
+            </article>
+            <article class="card spec-card">
+              <h3>Technology</h3>
+              <p>Integrated infotainment, over-the-air updates, and intelligent driver assistance.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal gallery-grid">
+          <img src="https://images.pexels.com/photos/2127037/pexels-photo-2127037.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Car interior" />
+          <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Elegant vehicle profile" />
+          <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Modern car dashboard" />
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© 2026 EcoRmacE Car Dealers. Crafted for elevated mobility.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

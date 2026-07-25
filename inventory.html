@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory | EcoRmacE Car Dealers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">E</span>
+          <span>
+            <strong>EcoRmacE</strong>
+            <small>Car Dealers</small>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="inventory.html" class="active">Inventory</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="page-hero reveal">
+          <p class="eyebrow">Exclusive inventory</p>
+          <h1>Choose from a curated range of refined vehicles.</h1>
+          <p>From executive sedans to electrified SUVs, every model is selected for impact and comfort.</p>
+        </section>
+
+        <section class="section reveal">
+          <div class="filter-row">
+            <span class="chip active">All</span>
+            <span class="chip">SUV</span>
+            <span class="chip">Electric</span>
+            <span class="chip">Luxury</span>
+            <span class="chip">Performance</span>
+          </div>
+          <div class="inventory-grid">
+            <a class="card vehicle-card vehicle-link" href="details.html?vehicle=aero-x">
+              <img src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Electric SUV" />
+              <div class="card-content">
+                <div class="card-topline">
+                  <h3>Aero X SUV</h3>
+                  <span>$78,900</span>
+                </div>
+                <p>Long-range EV with ambient lighting, voice control, and 360° camera</p>
+              </div>
+            </a>
+            <a class="card vehicle-card vehicle-link" href="details.html?vehicle=velora-s">
+              <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Sedan" />
+              <div class="card-content">
+                <div class="card-topline">
+                  <h3>Velora S</h3>
+                  <span>$84,200</span>
+                </div>
+                <p>Executive sedan with adaptive cruise and handcrafted interior finishes</p>
+              </div>
+            </a>
+            <a class="card vehicle-card vehicle-link" href="details.html?vehicle=nova-gt">
+              <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Sports car" />
+              <div class="card-content">
+                <div class="card-topline">
+                  <h3>Nova GT</h3>
+                  <span>$96,500</span>
+                </div>
+                <p>Performance machine with carbon details and launch control tuning</p>
+              </div>
+            </a>
+            <a class="card vehicle-card vehicle-link" href="details.html?vehicle=monarch-v">
+              <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Black premium car" />
+              <div class="card-content">
+                <div class="card-topline">
+                  <h3>Monarch V</h3>
+                  <span>$102,400</span>
+                </div>
+                <p>Full-size luxury sedan with premium leather and surround audio</p>
+              </div>
+            </a>
+            <a class="card vehicle-card vehicle-link" href="details.html?vehicle=aria-coupe">
+              <img src="https://images.pexels.com/photos/1638459/pexels-photo-1638459.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Modern coupe" />
+              <div class="card-content">
+                <div class="card-topline">
+                  <h3>Aria Coupe</h3>
+                  <span>$89,100</span>
+                </div>
+                <p>Low-slung coupe with dynamic styling and intuitive digital cockpit</p>
+              </div>
+            </a>
+            <a class="card vehicle-card vehicle-link" href="details.html?vehicle=pulse-r">
+              <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Red luxury car" />
+              <div class="card-content">
+                <div class="card-topline">
+                  <h3>Pulse R</h3>
+                  <span>$91,700</span>
+                </div>
+                <p>Hybrid performance coupe designed for effortless city-to-highway travel</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© 2026 EcoRmacE Car Dealers. Crafted for elevated mobility.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
